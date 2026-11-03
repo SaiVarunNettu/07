@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2026 Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TechFest 2026</h1>
+        <p>Welcome to our event registration portal!</p>
+
+        <form id="registrationForm">
+            <input type="text" id="name"
+                placeholder="Enter your name" required>
+
+            <input type="email" id="email"
+                placeholder="Enter your email" required>
+
+            <select id="event" required>
+                <option value="">Select an event</option>
+                <option value="Hackathon">Hackathon</option>
+                <option value="Coding">Coding Competition</option>
+                <option value="Quiz">Technical Quiz</option>
+            </select>
+
+            <button type="submit">Register Now</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
